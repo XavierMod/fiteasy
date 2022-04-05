@@ -1,0 +1,13 @@
+{
+    "colors": {
+      "primary": "#3478C7",
+      "accent": "#14BDD3"
+    },
+    "fonts": {
+      "primary": "OpenSans-Regular",
+      "light": "OpenSans-Light",
+      "bold": "OpenSans-Bold",
+      "semi_bold": "OpenSans-SemiBold"
+    }
+  }
+  

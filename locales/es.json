@@ -1,0 +1,15 @@
+{
+  "app": {
+    "General": {
+      "moderateActivity": "Actividad moderada"
+    },
+    "Home": {
+      "week": "Semana",
+      "minutesLeft": "Minutos restantes",
+      "strengthActivitiesLeft": "Actividades de fuerza restantes",
+      "myTrophiesEarned": "Mis trofeos ganados",
+      "recordExercise": "Nuevo ejercicio",
+      "editWeekExercise": "Edita el ejercicio de esta semana"
+    }
+  }
+}

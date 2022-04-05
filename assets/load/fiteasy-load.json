@@ -1,0 +1,46 @@
+{
+  "language": "english",
+  "weeks": [
+    {
+      "strengthActivitiesLeft": 2,
+      "timestamp": "2020-06-13T18:30:00.000Z",
+      "trophiesEarned": 0,
+      "exercisesRecorded": [
+        {
+          "name": "Brisk Walking",
+          "type": "Moderate",
+          "id": "95894a2d-b19a-4129-b6c7-b28b89f69d08",
+          "slug": "brisk-walking",
+          "isStrengthActivity": "No",
+          "duration": 10,
+          "date": "03-10-2022"
+        },
+        {
+          "name": "Dancing",
+          "type": "Moderate",
+          "id": "e80b5952-4b9b-48dc-845b-0d26e6392592",
+          "slug": "dancing",
+          "isStrengthActivity": "No",
+          "duration": 10,
+          "date": "04-10-2022"
+        }
+      ]
+    },
+    {
+      "strengthActivitiesLeft": 2,
+      "timestamp": "2020-06-21T18:30:00.000Z",
+      "trophiesEarned": 0,
+      "exercisesRecorded": [
+        {
+          "name": "Brisk Walking",
+          "type": "Moderate",
+          "id": "95894a2d-b19a-4129-b6c7-b28b89f69d08",
+          "slug": "brisk-walking",
+          "isStrengthActivity": "No",
+          "duration": 10,
+          "date": "03-10-2022"
+        }
+      ]
+    }
+  ]
+}
