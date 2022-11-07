@@ -9,6 +9,7 @@ import {
   TextInput,
 } from 'react-native';
 import exercises from '../../data/exercises.json';
+import uuid from 'react-native-uuid';
 
 const Container = styled.View`
   position: relative;
@@ -64,6 +65,14 @@ const ExercisePicker = props => {
           onChangeText={el => {
             updateResults(el);
             setQuery(el);
+            props.getSelectedExercise({
+              isStrengthActivity: '',
+              learnMore: '',
+              name: el,
+              slug: uuid.v4(),
+              trophies: [],
+              type: '',
+            });
           }}
           renderTextInput={el => <TextInput {...el} style={styles.input} />}
           placeholder={'Exercise'}
@@ -95,7 +104,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontFamily: 'Montserrat-Regular',
     fontSize: 25,
-    fontWeight: '600'
+    fontWeight: '600',
   },
 });
 

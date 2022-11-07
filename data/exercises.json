@@ -5,16 +5,140 @@
       "type": "Moderate",
       "slug": "brisk-walking",
       "isStrengthActivity": "No",
-      "duration": 0,
-      "date": ""
+      "learnMore": "https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/walking-for-health/",
+      "trophies": [
+        {
+          "id": "explorer-one",
+          "name": "The Explorer I",
+          "description": "Description"
+        }
+      ]
     },
     {
       "name": "Dancing",
       "type": "Moderate",
       "slug": "dancing",
       "isStrengthActivity": "No",
-      "duration": 0,
-      "date": ""
+      "learnMore": "https://www.betterhealth.vic.gov.au/health/healthyliving/dance-health-benefits",
+      "trophies": []
+    },
+    {
+      "name": "Water aerobics",
+      "type": "Moderate",
+      "slug": "water-aerobics",
+      "isStrengthActivity": "No",
+      "learnMore": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/aqua-aerobics",
+      "trophies": []
+    },
+    {
+      "name": "Bike riding",
+      "type": "Moderate",
+      "slug": "bike-riding",
+      "isStrengthActivity": "No",
+      "learnMore": "https://www.betterhealth.vic.gov.au/health/healthyliving/cycling-health-benefits",
+      "trophies": []
+    },
+    {
+      "name": "Hiking",
+      "type": "Moderate",
+      "slug": "hiking",
+      "isStrengthActivity": "No",
+      "learnMore": "https://www.webmd.com/fitness-exercise/features/hiking-body-mind",
+      "trophies": []
+    },
+    {
+      "name": "Rollerblading",
+      "type": "Moderate",
+      "slug": "rollerblading",
+      "isStrengthActivity": "No",
+      "learnMore": "https://jumponwheels.com/11-benefits-of-rollerblading-you-must-know/",
+      "trophies": []
+    },
+    {
+      "name": "Running",
+      "type": "Vigorous",
+      "slug": "running",
+      "isStrengthActivity": "No",
+      "learnMore": "https://www.betterhealth.vic.gov.au/health/healthyliving/running-and-jogging-health-benefits",
+      "trophies": []
+    },
+    {
+      "name": "Swimming",
+      "type": "Vigorous",
+      "slug": "swimming",
+      "isStrengthActivity": "No",
+      "learnMore": "https://www.betterhealth.vic.gov.au/health/healthyliving/swimming-health-benefits",
+      "trophies": []
+    },
+    {
+      "name": "Cardio Sports",
+      "type": "Vigorous",
+      "slug": "sports",
+      "isStrengthActivity": "No",
+      "learnMore": "https://www.theyucatantimes.com/2019/11/the-top-5-sports-for-cardiovascular-fitness/",
+      "trophies": []
+    },
+    {
+      "name": "Skipping",
+      "type": "Vigorous",
+      "slug": "skipping",
+      "isStrengthActivity": "No",
+      "learnMore": "https://pharmeasy.in/blog/10-amazing-health-benefits-of-skipping-rope/",
+      "trophies": []
+    },
+    {
+      "name": "Aerobics",
+      "type": "Vigorous",
+      "slug": "aerobics",
+      "isStrengthActivity": "Yes",
+      "learnMore": "https://my.clevelandclinic.org/health/articles/7050-aerobic-exercise",
+      "trophies": []
+    },
+    {
+      "name": "Gymnastics",
+      "type": "Vigorous",
+      "slug": "gymnastics",
+      "isStrengthActivity": "Yes",
+      "learnMore": "https://www.gymnastics.org.au/VIC/Posts/News_Articles/2018/July/Benefits_of_Gymnastics_.aspx",
+      "trophies": []
+    },
+    {
+      "name": "Martial Arts",
+      "type": "Vigorous",
+      "slug": "martial-arts",
+      "isStrengthActivity": "Yes",
+      "learnMore": "https://www.webmd.com/mental-health/mental-benefits-of-martial-arts",
+      "trophies": []
+    },
+    {
+      "name": "Gym training",
+      "type": "Vigorous",
+      "slug": "gym-training",
+      "isStrengthActivity": "Yes",
+      "learnMore": "https://www.healthline.com/health/fitness/benefits-of-strength-training",
+      "trophies": []
+    },
+    {
+      "name": "Indoor Cycling",
+      "type": "Vigorous",
+      "slug": "indoor-cycling",
+      "isStrengthActivity": "No",
+      "learnMore": "https://www.webmd.com/fitness-exercise/guide/indoor-cycling",
+      "trophies": []
+    },
+    {
+      "name": "Bodyweight training",
+      "type": "Vigorous",
+      "slug": "bodyweight-training",
+      "isStrengthActivity": "Yes",
+      "trophies": []
+    },
+    {
+      "name": "Boxing",
+      "type": "Vigorous",
+      "slug": "boxing",
+      "isStrengthActivity": "Yes",
+      "trophies": []
     }
   ]
 }

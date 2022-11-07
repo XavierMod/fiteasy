@@ -18,7 +18,8 @@ import {useDispatch, useSelector} from 'react-redux';
 import {addExerciseRecord} from '../../store/reducers/main';
 import Close from '../../assets/images/close.svg';
 import uuid from 'react-native-uuid';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
+import {useNavigation} from '@react-navigation/native';
 
 const ModalPadding = styled.View`
   padding: 20px;
@@ -47,15 +48,16 @@ const MinutesSlider = styled.View`
 
 const Wrapper = () => {
   const dispatch = useDispatch();
+  const navigation = useNavigation();
   const [modalVisible, setModalVisible] = useState(false);
   const [entry, setEntry] = useState({
     exercise: {
-      name: '',
-      type: '',
-      slug: '',
-      isStrengthActivity: false,
-      duration: 0,
-      id: '',
+      name: undefined,
+      type: undefined,
+      slug: undefined,
+      isStrengthActivity: undefined,
+      duration: 5,
+      id: undefined,
     },
   });
   const theme = useTheme();
@@ -75,9 +77,11 @@ const Wrapper = () => {
         }}>
         <ScrollView>
           <View style={styles.modalView}>
-            <CloseWrapper>
-              <Close width={30} height={30} />
-            </CloseWrapper>
+            <TouchableOpacity style={{position: 'absolute', right: 0, zIndex: 1000}} onPress={() => setModalVisible(!modalVisible)}>
+              <CloseWrapper>
+                <Close width={30} height={30} />
+              </CloseWrapper>
+            </TouchableOpacity>
             <ModalPadding>
               <Text
                 style={{
@@ -89,8 +93,10 @@ const Wrapper = () => {
               </Text>
             </ModalPadding>
             <ExercisePicker
-              getSelectedExercise={el =>
-                setEntry({exercise: {...el, id: uuid.v4()}})
+              getSelectedExercise={el => {
+                console.log(el);
+                return setEntry({exercise: {...el, id: uuid.v4()}})
+              }
               }
             />
             <MinutesSlider>

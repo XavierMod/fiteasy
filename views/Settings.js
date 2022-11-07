@@ -6,6 +6,7 @@ import {useTheme} from 'styled-components';
 import {useTranslation} from 'react-i18next';
 import {useDispatch} from 'react-redux';
 import {changeLanguage} from '../store/reducers/main';
+import Button from '../components/library/Button';
 
 const Wrapper = styled.View`
   background: ${props => props.theme.colors.primary};
@@ -77,6 +78,10 @@ const Settings = () => {
             </LangOption>
           </TouchableOpacity>
         </View>
+        <Text style={{color: 'white', fontSize: 22, marginTop: 25}}>
+          Export my data:
+        </Text>
+        <Button style={{marginTop: 20}} text="Download data" />
       </View>
       <View style={{flex: 1}}>
         <Text style={{color: 'white', fontWeight: '700'}}>
